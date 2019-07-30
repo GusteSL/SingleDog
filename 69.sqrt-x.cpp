@@ -8,11 +8,16 @@ public:
     int mySqrt(int x) {
         if(x == 0) return 0;
         if(x < 4) return 1;
-        long long int result = x / 2;
-        while(x < result * result) {
-            result /= 2;
+        int result = 0.5 * x;
+        while(result > x / result) {
+            result *= 0.5;
         }
+        while(result <= x / result) {
+            result ++;
+        }
+        result --;
         return result;
+        // return sqrt(x);
     }
 };
 
