@@ -2,7 +2,7 @@
 <table style="border-style:solid;border-color:white;">
     <tr>
         <td align="center" width="300px">
-            <img width="160" height="240" alt="证件照" src="https://note.youdao.com/yws/api/personal/file/WEB735bada49c77156202b6a38a339ed118?method=getImage&version=1328&cstk=p_j_6q6H">
+            <img width="160" height="240" alt="证件照" src="https://github.com/GusteSL/SingleDog/blob/master/%E7%99%BD.jpg">
         </td>
         <td width="675px">
             <h1>石灵</h1>
