@@ -30,7 +30,7 @@ public:
         q = A.back();
         for(int i = 0; i < A.size(); ++i) {
             for(int j = i+1; j < A.size(); ++j) {
-                if((float)A[i] < (float)A[j]*num) {
+                if(A[i] < A[j]*num) {
                     result += A.size() - j;
                     if(A[i]*q > A[j]*p) {
                         p = A[i];
