@@ -10,6 +10,9 @@ public:
         if(haystack.size() == 0) return -1;
         int index = -1;
         for(int i = 0; i < haystack.size(); ++i) {
+            if(i+needle.size() > haystack.size()) {
+                break;
+            }
             bool same = true;
             for(int j = 0; j < needle.size() && same; ++j) {
                 if(i+j >= haystack.size() || haystack[i+j] != needle[j]) {
