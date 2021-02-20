@@ -16,6 +16,9 @@
 class Solution {
 public:
     ListNode* sortList(ListNode* head) {
+        return Method2(head);
+    }
+    ListNode* Method1(ListNode *const head) {
         if(head == NULL) return head;
         // vector<ListNode*> tmp_val;
         // for(ListNode* p = head; p != NULL; p = p->next) {
